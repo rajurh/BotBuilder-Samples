@@ -149,8 +149,8 @@
                 "height": 80
               },
               "position": {
-                "x": 69,
-                "y": 585
+                "x": 65,
+                "y": 566
               },
               "angle": 0,
               "id": "ca08fdbc-6cf8-4603-a08e-39085f6df893",
@@ -398,7 +398,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "final paper",
+                      "text": "FINAL PAPER",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -437,7 +437,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Passage",
+                      "text": "PASSAGE",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -538,51 +538,52 @@
               }
             },
             {
-              "type": "tm.Boundary",
+              "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 194,
-                "y": 558
+                "id": "8fe25fe9-a882-47f2-a923-5386c82c334c"
               },
               "target": {
-                "x": 356,
-                "y": 714
+                "id": "146d63cb-5d56-4dd8-a93d-fa4a64b2e567"
               },
               "vertices": [
                 {
-                  "x": 332,
-                  "y": 588
+                  "x": 761,
+                  "y": 484
+                },
+                {
+                  "x": 789,
+                  "y": 386
                 }
               ],
-              "id": "edc9782b-8bd3-477e-ad76-26d6bf9cde1e",
+              "id": "d7175adb-a678-422f-928d-78df9acd754c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Options set",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
               "z": 20,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 562,
-                "y": 34
-              },
-              "target": {
-                "x": 836,
-                "y": 325
-              },
-              "vertices": [
-                {
-                  "x": 584,
-                  "y": 270
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
-              ],
-              "id": "1f0724be-7d2d-46cc-ab0e-f25ea239a934",
-              "z": 21,
-              "attrs": {}
+              }
             }
           ]
         },
         "size": {
-          "height": 657,
+          "height": 666,
           "width": 1196
         }
       }
